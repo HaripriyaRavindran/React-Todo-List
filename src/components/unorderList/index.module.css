@@ -1,0 +1,53 @@
+.strike{
+    text-decoration: line-through;
+}
+.list{
+    text-align: left;
+    padding: 20px;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+}
+.card{
+    padding: 10px 0px;
+    /* background-color: #000; */
+}
+.items{
+    padding: 3px 0px;
+}
+.color{
+    border: 3px solid yellow;
+    background-color: rgba(233, 233, 118, 0.301);
+}
+.del{
+    float: right;
+	color:#e74141;
+	text-transform: uppercase;
+	transition: 0.7s;
+	letter-spacing: 3px;
+	background-color: white;
+	border: 1px solid #e74141;
+	font-weight: 600;
+}
+.del:hover{
+    background-color: #e74141;
+	color:#050801;
+	box-shadow: 0 0 5px #e74141,
+				0 0 10px #e74141,
+				0 0 20px #e74141,
+				0 0 50px #e74141;
+}
+h4{
+    margin-bottom: 0px !important;
+    color: red;
+}
+h2{
+    display: inline;
+    margin-left: 10px;
+}
+li{
+    margin: 0px 20px;
+}
+ol{
+    padding-inline-start: 0px;
+}
